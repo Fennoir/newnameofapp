@@ -2,25 +2,40 @@
 <html>
 <head>
   <title>Nameofapp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= csrf_meta_tags %>
+
 </head>
 <body>
 
-
-<nav>
-	<ul>
-		<li>Home</li>
-		<li>About</li>
-		<li>Contact</li>
+<div class="header">
+	<ul class="tabs  primary-nav">
+	    <li class="tabs_item">
+	        <a href="#" class="tabs_link">Home</a>
+	    </li>
+	    <li class="tabs_item">
+	        <a href="#" class="tabs_link">About</a>
+	    </li>
+	    <li class="tabs_item">
+	        <a href="#" class="tabs_link">Work</a>
+	    </li>
+	    <li class="tabs_item">
+	        <a href="#" class="tabs_link">Contact</a>
+	    </li>
 	</ul>
-</nav>
+</div>
 
 <%= yield %>
 
-<footer>
-	&copy; 2015 Bike Berlin
+<footer class="footer">
+	&copy; 2017 Bike Berlin
 </footer>
 </body>
 </html>
