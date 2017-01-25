@@ -1,3 +1,6 @@
+Hi, my name is Steve Fenner, and I am halfway through my Web Developer course.
+This app is brand new, so I will tell you more as I progress! Thanks for reading.
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
