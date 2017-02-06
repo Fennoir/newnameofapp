@@ -13,3 +13,12 @@ h2 span {
 h1 {
 	text-align: center;
 }
+
+
+#aboutpage {
+	background: url("bicyclelandscape.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 1000px;
+	padding: 20px;
+
+}
